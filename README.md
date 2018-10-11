@@ -2,6 +2,12 @@
 
 This data set is used in [(X. Han et al. 2017) Bi-LSTM | Learning Fashion Compatibility with Bidirectional LSTMs.](https://arxiv.org/pdf/1707.05691.pdf).
 
+## Dataset Schema
+
+- sequences of shop item images as an outfit
+- item description
+- See [original dataset](https://github.com/xthan/polyvore-dataset) for details.
+
 
 # Setup
 
