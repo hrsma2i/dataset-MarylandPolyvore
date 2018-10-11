@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+
+images/
+label/*
+!label/category_id.tsv
+!label/categorytype.tsv
+!label/category2categorytype.tsv
+!label/categorytype_order_main.txt

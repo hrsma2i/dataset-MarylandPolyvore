@@ -1,0 +1,6 @@
+outer
+tops
+full
+bottoms
+shoes
+legwear

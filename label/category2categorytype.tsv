@@ -1,0 +1,381 @@
+categorytype_id	categorytype	category_id	category	num items
+0	outer	25	Jackets	3192
+0	outer	24	Coats	2844
+0	outer	236	Blazers	889
+0	outer	18	Cardigans	693
+0	outer	26	Vests	333
+0	outer	23	Outerwear	316
+0	outer	4456	Men's Jackets	160
+0	outer	250	Robes	22
+0	outer	256	Activewear Jackets	11
+0	outer	276	Men's Outerwear	7
+0	outer	277	Men's Sportcoats & Blazers	20
+0	outer	289	Men's Activewear Jackets	1
+0	outer	4455	Men's Coats	42
+0	outer	4457	Men's Vests	12
+1	tops	247	Camisoles	33
+1	tops	248	Chemises	3
+1	tops	252	Activewear Tops	12
+1	tops	11	Tops	4226
+1	tops	19	Sweaters	2884
+1	tops	272	Men's Shirts	21
+1	tops	273	Men's Sweaters	22
+1	tops	21	T-Shirts	2144
+1	tops	286	Men's Activewear Tops	2
+1	tops	17	Blouses	2100
+1	tops	104	Tank Tops	1825
+1	tops	309	Activewear Tank Tops	23
+1	tops	4495	Sweatshirts	694
+1	tops	4496	Hoodies	321
+1	tops	341	Men's Dress Shirts	49
+1	tops	342	Men's Polos	22
+1	tops	343	Men's Tank Tops	13
+1	tops	275	Men's T-Shirts	181
+1	tops	4454	Men's Casual Shirts	173
+1	tops	4464	Men's Oxfords	15
+1	tops	15	Tunics	117
+1	tops	4497	Men's Sweatshirts	8
+1	tops	4498	Men's Hoodies	11
+2	full	30	Suits	3
+2	full	4	Day Dresses	3164
+2	full	5	Cocktail Dresses	1319
+2	full	3	Dresses	491
+2	full	6	Gowns	399
+2	full	244	Rompers	176
+2	full	243	Jumpsuits	126
+2	full	1607	Cover-ups	38
+2	full	281	Men's Suits	14
+3	bottoms	237	Skinny Jeans	2649
+3	bottoms	29	Shorts	2266
+3	bottoms	9	Knee Length Skirts	2239
+3	bottoms	28	Pants	1697
+3	bottoms	8	Mini Skirts	1199
+3	bottoms	27	Jeans	929
+3	bottoms	240	Boyfriend Jeans	636
+3	bottoms	332	Capri & Cropped Pants	345
+3	bottoms	7	Skirts	320
+3	bottoms	10	Long Skirts	295
+3	bottoms	278	Men's Jeans	285
+3	bottoms	310	Straight Leg Jeans	209
+3	bottoms	253	Activewear Pants	141
+3	bottoms	4458	Men's Casual Pants	140
+3	bottoms	238	Bootcut Jeans	64
+3	bottoms	239	Wide Leg Jeans	34
+3	bottoms	254	Activewear Skirts	1
+3	bottoms	255	Activewear Shorts	24
+3	bottoms	279	Men's Pants	11
+3	bottoms	287	Men's Activewear Pants	11
+3	bottoms	288	Men's Activewear Shorts	3
+3	bottoms	4452	Flared Jeans	85
+3	bottoms	4459	Men's Dress Pants	42
+4	shoes	43	Pumps	4113
+4	shoes	46	Sandals	4101
+4	shoes	261	Ankle Booties	3904
+4	shoes	49	Sneakers	2993
+4	shoes	41	Shoes	1279
+4	shoes	47	Flats	1203
+4	shoes	42	Boots	823
+4	shoes	265	Loafers & Moccasins	344
+4	shoes	266	Oxfords	271
+4	shoes	263	Knee High Boots	265
+4	shoes	264	Over-The-Knee Boots	247
+4	shoes	297	Men's Sneakers	228
+4	shoes	262	Mid Calf Boots	129
+4	shoes	50	Slippers	120
+4	shoes	48	Flip Flops	109
+4	shoes	291	Men's Shoes	99
+4	shoes	292	Men's Boots	77
+4	shoes	268	Athletic Shoes	61
+4	shoes	267	Clogs	28
+4	shoes	280	Men's Shorts	36
+4	shoes	293	Men's Sandals	5
+4	shoes	294	Men's Flip Flops	2
+4	shoes	295	Men's Loafers & Moccasins	24
+4	shoes	296	Men's Dress Shoes	47
+4	shoes	298	Men's Athletic Shoes	10
+4	shoes	4465	Men's Slippers	2
+4	shoes	4522	Men's Work Boots	22
+5	legwear	241	Leggings	602
+5	legwear	251	Tights	224
+5	legwear	68	Hosiery	10
+5	legwear	4460	Men's Socks	15
+5	legwear	69	Socks	279
+6	headwear	55	Hats	2178
+6	headwear	4428	Eyeglasses	428
+6	headwear	304	Men's Sunglasses	178
+6	headwear	303	Men's Hats	132
+6	headwear	4426	Eyewear	47
+6	headwear	4447	Men's Eyeglasses	40
+7	bag	37	Shoulder Bags	5098
+7	bag	38	Clutches	3459
+7	bag	318	Handbags	2667
+7	bag	36	Tote Bags	2070
+7	bag	259	Backpacks	1737
+7	bag	40	Wallets	519
+7	bag	35	Bags	275
+7	bag	258	Messenger Bags	214
+7	bag	39	Luggage	205
+7	bag	231	Bags & Cases	109
+7	bag	4520	Men's Backpacks	71
+7	bag	4461	Men's Bags	32
+7	bag	4521	Men's Messenger Bags	21
+7	bag	290	Men's Bags & Wallets	9
+8	accessory	64	Earrings	5118
+8	accessory	62	Necklaces	4719
+8	accessory	57	Sunglasses	4042
+8	accessory	106	Bracelets & Bangles	3540
+8	accessory	65	Rings	3116
+8	accessory	1967	Tech Accessories	2654
+8	accessory	61	Watches	1624
+8	accessory	58	Hair Accessories	1030
+8	accessory	56	Ties	28
+8	accessory	105	Scarves	917
+8	accessory	4438	Floral Decor	915
+8	accessory	60	Jewelry	578
+8	accessory	74	Beauty Products	542
+8	accessory	52	Belts	524
+8	accessory	99	Beauty Accessories	30
+8	accessory	51	Accessories	483
+8	accessory	316	Office Accessories	481
+8	accessory	67	Brooches	300
+8	accessory	305	Men's Watches	224
+8	accessory	53	Gloves	206
+8	accessory	107	Charms & Pendants	165
+8	accessory	270	Sports Accessories	4
+8	accessory	4472	Men's Tech Accessories	127
+8	accessory	299	Men's Accessories	19
+8	accessory	301	Men's Gloves	12
+8	accessory	302	Men's Scarves	38
+8	accessory	307	Cuff Links	9
+8	accessory	300	Men's Belts	71
+8	accessory	4466	Men's Watches & Jewelry	8
+8	accessory	4467	Men's Key Rings & Chains	34
+8	accessory	4468	Men's Money Clips	7
+8	accessory	4470	Bow Ties	11
+8	accessory	4523	Men's Bracelets	60
+8	accessory	4524	Men's Necklaces	16
+8	accessory	4525	Men's Rings	21
+9	cosmetics	200	Lipstick	2536
+9	cosmetics	196	Eyeshadow	1628
+9	cosmetics	95	Fragrance	1324
+9	cosmetics	222	Nail Polish	1236
+9	cosmetics	197	Mascara	956
+9	cosmetics	199	Eyeliner	713
+9	cosmetics	93	Makeup	600
+9	cosmetics	186	Eye Makeup	557
+9	cosmetics	201	Lip Gloss	547
+9	cosmetics	227	Hair Styling Tools	395
+9	cosmetics	319	Makeup Brushes	349
+9	cosmetics	187	Lip Makeup	342
+9	cosmetics	194	Blush	333
+9	cosmetics	190	Face Powder	302
+10	_other_fashion	31	Swimwear	20
+10	_other_fashion	33	Activewear	21
+10	_other_fashion	2	Clothing	1738
+10	_other_fashion	59	Umbrellas	30
+10	_other_fashion	75	Costumes	46
+10	_other_fashion	85	Sleepwear	1
+10	_other_fashion	101	Maternity	6
+10	_other_fashion	245	Bras	280
+10	_other_fashion	110	Sports & Outdoors	169
+10	_other_fashion	249	Pajamas	36
+10	_other_fashion	1605	Bikinis	131
+10	_other_fashion	246	Panties & Thongs	126
+10	_other_fashion	282	Men's Swimwear	4
+10	_other_fashion	283	Men's Underwear	6
+10	_other_fashion	284	Men's Sleepwear	2
+10	_other_fashion	285	Men's Activewear	1
+10	_other_fashion	71	Men's Fashion	116
+10	_other_fashion	4463	Men's Wallets	110
+10	_other_fashion	306	Suspenders	8
+10	_other_fashion	315	Shapewear	105
+10	_other_fashion	1606	One Piece Swimsuits	93
+10	_other_fashion	4517	Bikini Tops	91
+10	_other_fashion	271	Men's Clothing	79
+10	_other_fashion	257	Sports Bras	77
+10	_other_fashion	4462	Men's Briefcases	14
+10	_other_fashion	4473	Men's Umbrellas	3
+10	_other_fashion	4474	Men's Grooming Bags	1
+10	_other_fashion	4478	Boys	36
+10	_other_fashion	4526	Handkerchiefs	4
+11	_other	77	Font	427
+11	_other	118	Accent Tables	399
+11	_other	182	Home Decor	807
+11	_other	94	Skincare	8
+11	_other	96	Bath & Body	21
+11	_other	3336	Stationery	432
+11	_other	108	Intimates	46
+11	_other	113	Furniture	21
+11	_other	122	Tables	14
+11	_other	144	Throw Pillows	346
+11	_other	124	Barstools	6
+11	_other	127	Dressers	26
+11	_other	129	Storage & Shelves	14
+11	_other	130	Bookcases	36
+11	_other	132	Entertainment Units	5
+11	_other	146	Desks	22
+11	_other	147	Office Chairs	20
+11	_other	148	File Cabinets	3
+11	_other	150	Hammocks & Swings	10
+11	_other	151	Outdoor Tables	7
+11	_other	152	Outdoor Chairs	15
+11	_other	153	Outdoor Loungers & Day Beds	3
+11	_other	154	Patio Umbrellas	14
+11	_other	155	Outdoor Benches	2
+11	_other	157	Garden Fountains	1
+11	_other	159	Bedding	17
+11	_other	160	Sheets & Pillowcases	34
+11	_other	161	Comforters	8
+11	_other	78	Food & Drink	309
+11	_other	163	Duvet Covers	19
+11	_other	164	Bed Pillows	8
+11	_other	166	Bath	4
+11	_other	167	Bath Towels	49
+11	_other	168	Shower Curtains	3
+11	_other	169	Bath Rugs & Mats	4
+11	_other	170	Bath Accessories	16
+11	_other	172	Bakeware	4
+11	_other	173	Cutlery	7
+11	_other	174	Small Appliances	15
+11	_other	175	Cookware	7
+11	_other	178	Flatware	48
+11	_other	180	Table Linens	41
+11	_other	181	Panel Screens	4
+11	_other	185	Cheek Makeup	13
+11	_other	4244	Holiday Decorations	274
+11	_other	136	Rugs	270
+11	_other	177	Drinkware	268
+11	_other	191	Tinted Moisturizer	29
+11	_other	192	Makeup Remover	21
+11	_other	115	Sofas	249
+11	_other	4503	Ceiling Lights	248
+11	_other	949	Toys	242
+11	_other	211	Lip Treatments	240
+11	_other	76	Electronics	228
+11	_other	189	Foundation	224
+11	_other	203	Lip Stain	21
+11	_other	205	Face Cleansers	43
+11	_other	206	Face Toners	9
+11	_other	207	Face Moisturizers	48
+11	_other	223	Nail Treatments	219
+11	_other	209	Eye Care	26
+11	_other	116	Accent Chairs	212
+11	_other	216	Hair Removal	2
+11	_other	218	Hair Shampoo	15
+11	_other	219	Hair Conditioner	22
+11	_other	221	Hair Color	37
+11	_other	140	Candles & Candleholders	201
+11	_other	171	Kitchen & Dining	198
+11	_other	224	Eyelash Curlers	13
+11	_other	225	Tweezers & Brow Tools	3
+11	_other	226	Sharpeners	3
+11	_other	228	Blow Dryers & Irons	38
+11	_other	184	Face Makeup	164
+11	_other	102	Baby	158
+11	_other	162	Blankets	158
+11	_other	311	Books	158
+11	_other	198	False Eyelashes	155
+11	_other	4441	Kids	155
+11	_other	214	Body Moisturizers	152
+11	_other	4506	Table Lamps	150
+11	_other	4254	Small Storage	147
+11	_other	213	Body Cleansers	142
+11	_other	260	Briefcases	20
+11	_other	179	Serveware	138
+11	_other	139	Vases	132
+11	_other	4267	Outdoor Decor	117
+11	_other	333	Body Art	114
+11	_other	195	Cheek Bronzer	111
+11	_other	308	Pets	34
+11	_other	340	Gift Sets & Kits	106
+11	_other	314	Curtains	49
+11	_other	4240	Clocks	101
+11	_other	317	Garden Tools	9
+11	_other	204	Face Care	100
+11	_other	320	Deodorant	4
+11	_other	321	Gift Cards	10
+11	_other	123	Chairs	96
+11	_other	4479	Girls	95
+11	_other	334	Men's Grooming	27
+11	_other	4257	Wallpaper	94
+11	_other	336	Men's Hair Care	1
+11	_other	337	Men's Skincare	3
+11	_other	338	Makeup Tools	18
+11	_other	339	Manicure Tools	22
+11	_other	335	Men's Fragrance	92
+11	_other	4505	Floor Lamps	92
+11	_other	202	Lip Pencils	84
+11	_other	141	Frames	83
+11	_other	4241	Fabric	2
+11	_other	4242	Flooring	6
+11	_other	98	Nail Care	81
+11	_other	4246	Fireplace Accessories	9
+11	_other	4247	Decorative Hardware	2
+11	_other	4248	Home Fragrance	20
+11	_other	135	Lighting	81
+11	_other	4258	Window Treatments	2
+11	_other	4269	Patio Furniture	14
+11	_other	4276	Outdoor Lighting	29
+11	_other	4292	Beach Towels	31
+11	_other	4429	Sideboards	14
+11	_other	4430	Armoires	3
+11	_other	4431	Nightstands	12
+11	_other	4432	Outdoors	35
+11	_other	4433	Bed Accessories	27
+11	_other	4434	Quilts & Coverlets	4
+11	_other	188	Concealer	75
+11	_other	4436	Cookbooks	12
+11	_other	4437	Fans	2
+11	_other	97	Haircare	74
+11	_other	4439	Food Storage Containers	29
+11	_other	4440	Teapots	20
+11	_other	229	Brushes & Combs	71
+11	_other	4442	Juniors	6
+11	_other	4443	Jewelry Storage	8
+11	_other	4445	Cleaning	6
+11	_other	4446	Cabinets	10
+11	_other	4448	Media	49
+11	_other	4449	Benches	12
+11	_other	4450	Kitchen Linens	10
+11	_other	4451	Party Supplies	10
+11	_other	143	Mirrors	69
+11	_other	217	Sun Care	67
+11	_other	208	Face Masks	63
+11	_other	4475	Men's Deodorant	5
+11	_other	4476	Men's Gift Sets & Kits	4
+11	_other	4477	Men's Shaving	21
+11	_other	4480	Health	6
+11	_other	4481	Oral Care	1
+11	_other	4482	Supplements	1
+11	_other	4483	Napkin Rings	4
+11	_other	4484	Stools	11
+11	_other	4485	Outdoor Stools	4
+11	_other	4486	Aprons	7
+11	_other	4487	Bedspreads	2
+11	_other	4488	Children's Furniture	6
+11	_other	4489	Nursery Furniture	2
+11	_other	4490	Baby Bedding	4
+11	_other	4492	Window Blinds	2
+11	_other	4493	Outdoor Patio Sets	2
+11	_other	193	Makeup Primer	58
+11	_other	4499	Dining Chairs	39
+11	_other	4500	Dining Tables	37
+11	_other	4501	Bar Cabinets	3
+11	_other	4502	Standing Fans	2
+11	_other	313	Dinnerware	57
+11	_other	4504	Desk Lamps	17
+11	_other	120	Ottomans	56
+11	_other	4435	Bar Tools	56
+11	_other	4507	Wall Lights	27
+11	_other	4508	Curtain Rods	1
+11	_other	4509	Children's Room	4
+11	_other	4510	Children's Bedding	2
+11	_other	4511	Children's Decor	10
+11	_other	4512	Home Improvement	15
+11	_other	4513	Paint	10
+11	_other	4514	Storage & Organization	15
+11	_other	4516	Wedding Dresses	13
+11	_other	126	Beds	55
+11	_other	4518	Bikini Bottoms	45
+11	_other	176	Kitchen Gadgets & Tools	50
+11	_other	220	Styling Products	50
