@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
+*.tar.gz
 
 raw/*
 
@@ -7,3 +8,5 @@ main/*
 !main/labels/categorytype.tsv
 !main/labels/category2categorytype.tsv
 !main/labels/categorytype_order_main.txt
+
+tiny/*
