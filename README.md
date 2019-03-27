@@ -11,9 +11,15 @@ This data set is used in [(X. Han et al. 2017) Bi-LSTM | Learning Fashion Compat
 
 # Setup
 
-- Download [original dataset](https://github.com/xthan/polyvore-dataset).
-- Put image data into `images`.
-- Put text data into `label`.
+- Clone this repository.
+- Download `polyvore.tar.gz` and `polyvore-images.tar.gz` into `raw` directory in this repository from the [original repository](https://github.com/xthan/polyvore-dataset).
+- Extract them.
+    - `tar zxvf polyvore.tar.gz`
+    - `tar zxcf polyvore-images.tar.gz`
+- Move them to `main` directory.
+    - `mkdir main` (at this repository root)
+    - `mv polyvore/* ../main/labels`
+    - `mv polyvore-images ../main/images`
 - `pip install -r requirements.txt`
 
 
