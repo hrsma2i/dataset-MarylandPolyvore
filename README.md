@@ -16,6 +16,7 @@ Clone this repository.
 Make `raw` directory.
 
 ```sh
+$ export $THIS_REPO=/path/to/this/repo
 $ mkdir $THIS_REPO/raw
 ```
 
@@ -24,8 +25,8 @@ Download `polyvore.tar.gz` and `polyvore-images.tar.gz` into `raw` directory in 
 Extract them.
 
 ```sh
-$ tar zxvf polyvore.tar.gz
-$ tar zxcf polyvore-images.tar.gz
+$ tar zxvf $THIS_REPO/raw/polyvore.tar.gz
+$ tar zxcf $THIS_REPO/raw/polyvore-images.tar.gz
 ```
 
 Move them to `main` directory.
@@ -42,12 +43,8 @@ Install [hrsma2i/ml_json_processor](https://github.com/hrsma2i/ml_json_processor
 Make tiny dataset, sampling `N` samples from json files in `main` directory.
 
 ```sh
-$ smplj $THIS_REPO/main/labels/train_no_dup.json -o $THIS_REPO/tiny/labels -n 10
-$ smplj $THIS_REPO/main/labels/valid_no_dup.json -o $THIS_REPO/tiny/labels -n 10
+$ python make_tiny.py
 ```
-
-`pip install -r requirements.txt`
-
 
 # My contribution
 
