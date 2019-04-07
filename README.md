@@ -16,17 +16,18 @@ Clone this repository.
 Make `raw` directory.
 
 ```sh
-$ export $THIS_REPO=/path/to/this/repo
-$ mkdir $THIS_REPO/raw
+$ export THIS_REPO=/path/to/this/repo
+$ mkdir -p $THIS_REPO/raw/labels
 ```
 
-Download `polyvore.tar.gz` and `polyvore-images.tar.gz` into `raw` directory in this repository from the [original repository](https://github.com/xthan/polyvore-dataset).
+Download `polyvore.tar.gz` and `polyvore-images.tar.gz` into `raw/labels` and `raw` directory in this repository from the [original repository](https://github.com/xthan/polyvore-dataset).
 
 Extract them.
 
 ```sh
-$ tar zxvf $THIS_REPO/raw/polyvore.tar.gz
-$ tar zxcf $THIS_REPO/raw/polyvore-images.tar.gz
+$ cd $THIS_REPO/raw
+$ tar zxvf $THIS_REPO/raw/labels/polyvore.tar.gz
+$ tar zxvf $THIS_REPO/raw/polyvore-images.tar.gz
 ```
 
 Move them to `main` directory.
@@ -34,9 +35,8 @@ Note that `main/labels` already exists,
 move each file in `polyvore` into `main/labels`.
 
 ```sh
-$ mkdir $THIS_REPO/main
-$ mv $THIS_REPO/raw/polyvore/* $THIS_REPO/main/labels
-$ mv $THIS_REPO/raw/polyvore-images $THIS_REPO/main/images
+$ mv $THIS_REPO/raw/labels/* $THIS_REPO/main/labels
+$ mv $THIS_REPO/raw/images $THIS_REPO/main
 ```
 
 Install [hrsma2i/ml_json_processor](https://github.com/hrsma2i/ml_json_processor).
