@@ -36,10 +36,10 @@ def main(
             'fitb_k{}_cr_{}.json'.format(k, order))
     else:
         # cr: category restriction
-        # cu: category unification of choices
+        # ncu: not category unification of choices
         out_file = os.path.join(
             label_dir,
-            'fitb_k{}_cr_{}_cu.json'.format(k, order))
+            'fitb_k{}_cr_{}_ncu.json'.format(k, order))
     print('OUT FILE:', out_file)
 
     # filter
