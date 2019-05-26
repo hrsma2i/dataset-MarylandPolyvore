@@ -1,6 +1,8 @@
 .ipynb_checkpoints/
 *.tar.gz
 .vscode
+.env
+.mypy_cache
 
 raw/*
 

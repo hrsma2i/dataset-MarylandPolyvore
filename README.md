@@ -13,6 +13,16 @@ This data set is used in [(X. Han et al. 2017) Bi-LSTM | Learning Fashion Compat
 
 Clone this repository.
 
+```sh
+$ pipenv sync
+```
+
+or 
+
+```sh
+$ pip install -r requirements.txt
+```
+
 Make `raw` directory.
 
 ```sh
