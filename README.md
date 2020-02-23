@@ -2,6 +2,16 @@
 
 This data set is used in [(X. Han et al. 2017) Bi-LSTM | Learning Fashion Compatibility with Bidirectional LSTMs.](https://arxiv.org/pdf/1707.05691.pdf).
 
+<!-- TOC -->
+
+- [Maryland Polyvore dataset](#maryland-polyvore-dataset)
+    - [Dataset Schema](#dataset-schema)
+- [Setup](#setup)
+- [My contribution](#my-contribution)
+
+<!-- /TOC -->
+
+
 ## Dataset Schema
 
 - sequences of shop item images as an outfit
@@ -11,16 +21,10 @@ This data set is used in [(X. Han et al. 2017) Bi-LSTM | Learning Fashion Compat
 
 # Setup
 
-Clone this repository.
+Install the dependencies with [potry](https://python-poetry.org/).
 
 ```sh
-$ pipenv sync
-```
-
-or 
-
-```sh
-$ pip install -r requirements.txt
+$ poetry install
 ```
 
 Make `raw` directory.
@@ -49,12 +53,23 @@ $ mv $THIS_REPO/raw/labels/* $THIS_REPO/main/labels
 $ mv $THIS_REPO/raw/images $THIS_REPO/main
 ```
 
-Install [hrsma2i/ml_json_processor](https://github.com/hrsma2i/ml_json_processor).
-Make tiny dataset, sampling `N` samples from json files in `main` directory.
+Sample data to make tiny dataset for efficient debugging.
 
 ```sh
-$ python make_tiny.py
+$ brew install jq
+$ cd main/labels
+$ jq -c '.[]' train_no_dup.json > train_no_dup.jsonlines
+$ jq -c '.[]' fill_in_blank_test.json > fill_in_blank_test.jsonlines
+
+$ cd $THIS_REPO
+$ mkdir -p tiny/labels
+$ brew install coreutils
+$ gshuf -n $NUM_SAMPLE main/labels/train_no_dup.jsonlines > tiny/labels/train_no_dup.jsonlines
+$ gshuf -n $NUM_SAMPLE main/labels/fill_in_blank_test.jsonlines > tiny/labels/fill_in_blank_test.jsonlines
+
+$ ./copy_images_to_tiny.sh
 ```
+
 
 # My contribution
 

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "polyvore_2017_x_han"
+version = "0.1.0"
+description = ""
+authors = ["hrsma2i <hrs.ma2i@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pandas = "<1.0.0"
+tqdm = "^4.43.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+black = "^19.10b0"
+mypy = "^0.761"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
